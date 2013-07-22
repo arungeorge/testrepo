@@ -53,7 +53,7 @@ public class CustomAdapter extends ArrayAdapter<String> implements SpinnerAdapte
 		if(convertView == null){
 			LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 			convertView = (LinearLayout) inflater.inflate(R.layout.rowspinner, null);
-			//A simple view
+			//A Simple view
 			tx = (TextView) convertView.findViewById(R.id.textView1);
 		}
 		
