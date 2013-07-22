@@ -25,7 +25,7 @@ public class SpinnerTestActivity extends Activity {
         items.add("Hello");
         items.add("World");
         items.add("Happy");
-        items.add("Birthday");
+        items.add("Boy");
         
         ArrayAdapter<String> adapter = new CustomAdapter(this, items);
         
